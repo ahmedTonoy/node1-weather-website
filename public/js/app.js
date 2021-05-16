@@ -23,7 +23,7 @@ weatherForm.addEventListener('submit', (e) => {
             messageOne.textContent = 'Location: ' + data.location
             messageTwo.textContent = 'Sky Condition: ' + data.skyCondition
             messageThree.textContent = 'Temparature: ' + data.temperature + ' degree Celcius'
-            messageFour.textContent = 'Humidity: ' + data.humidity
+            messageFour.textContent = 'Humidity: ' + data.humidity 
         })
     })
 })
