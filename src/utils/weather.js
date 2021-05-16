@@ -11,7 +11,8 @@ const weather = (lat, lon, callback) => {
             callback(undefined, {
                 location: body.name,
                 temperature: body.main.temp,
-                skyCondition: body.weather[0].description
+                skyCondition: body.weather[0].description,
+                humidity: body.main.humidity
             })
         }
     })
